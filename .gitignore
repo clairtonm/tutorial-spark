@@ -168,4 +168,10 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+metals.sbt
+.vscode
+.metals
+.bloop
+.idea
+
 # End of https://www.gitignore.io/api/sbt,java,metals,windows,intellij,visualstudiocode

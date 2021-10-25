@@ -1,0 +1,98 @@
+{
+  "partitionToWriteStats" : {
+    "americas/brazil/sao_paulo" : [ {
+      "fileId" : "3b095b31-b216-4152-b330-9203e3a23375-0",
+      "path" : "americas/brazil/sao_paulo/3b095b31-b216-4152-b330-9203e3a23375-0_0-21-27_20211020155200.parquet",
+      "prevCommit" : "null",
+      "numWrites" : 33503,
+      "numDeletes" : 0,
+      "numUpdateWrites" : 0,
+      "numInserts" : 33503,
+      "totalWriteBytes" : 3411110,
+      "totalWriteErrors" : 0,
+      "tempPath" : null,
+      "partitionPath" : "americas/brazil/sao_paulo",
+      "totalLogRecords" : 0,
+      "totalLogFilesCompacted" : 0,
+      "totalLogSizeCompacted" : 0,
+      "totalUpdatedRecordsCompacted" : 0,
+      "totalLogBlocks" : 0,
+      "totalCorruptLogBlock" : 0,
+      "totalRollbackBlocks" : 0,
+      "fileSizeInBytes" : 3411110,
+      "minEventTime" : null,
+      "maxEventTime" : null
+    } ],
+    "americas/united_states/san_francisco" : [ {
+      "fileId" : "b5038cc2-69d1-4ff4-b332-5e8172a97bcc-0",
+      "path" : "americas/united_states/san_francisco/b5038cc2-69d1-4ff4-b332-5e8172a97bcc-0_1-27-28_20211020155200.parquet",
+      "prevCommit" : "null",
+      "numWrites" : 33299,
+      "numDeletes" : 0,
+      "numUpdateWrites" : 0,
+      "numInserts" : 33299,
+      "totalWriteBytes" : 3393946,
+      "totalWriteErrors" : 0,
+      "tempPath" : null,
+      "partitionPath" : "americas/united_states/san_francisco",
+      "totalLogRecords" : 0,
+      "totalLogFilesCompacted" : 0,
+      "totalLogSizeCompacted" : 0,
+      "totalUpdatedRecordsCompacted" : 0,
+      "totalLogBlocks" : 0,
+      "totalCorruptLogBlock" : 0,
+      "totalRollbackBlocks" : 0,
+      "fileSizeInBytes" : 3393946,
+      "minEventTime" : null,
+      "maxEventTime" : null
+    } ],
+    "asia/india/chennai" : [ {
+      "fileId" : "519a0d66-a9c6-40a4-8b2f-f83d2cafe843-0",
+      "path" : "asia/india/chennai/519a0d66-a9c6-40a4-8b2f-f83d2cafe843-0_2-27-29_20211020155200.parquet",
+      "prevCommit" : "null",
+      "numWrites" : 33198,
+      "numDeletes" : 0,
+      "numUpdateWrites" : 0,
+      "numInserts" : 33198,
+      "totalWriteBytes" : 3384724,
+      "totalWriteErrors" : 0,
+      "tempPath" : null,
+      "partitionPath" : "asia/india/chennai",
+      "totalLogRecords" : 0,
+      "totalLogFilesCompacted" : 0,
+      "totalLogSizeCompacted" : 0,
+      "totalUpdatedRecordsCompacted" : 0,
+      "totalLogBlocks" : 0,
+      "totalCorruptLogBlock" : 0,
+      "totalRollbackBlocks" : 0,
+      "fileSizeInBytes" : 3384724,
+      "minEventTime" : null,
+      "maxEventTime" : null
+    } ]
+  },
+  "compacted" : false,
+  "extraMetadata" : {
+    "schema" : "{\"type\":\"record\",\"name\":\"hudi_trips_cow_record\",\"namespace\":\"hoodie.hudi_trips_cow\",\"fields\":[{\"name\":\"begin_lat\",\"type\":[\"null\",\"double\"],\"default\":null},{\"name\":\"begin_lon\",\"type\":[\"null\",\"double\"],\"default\":null},{\"name\":\"driver\",\"type\":[\"null\",\"string\"],\"default\":null},{\"name\":\"end_lat\",\"type\":[\"null\",\"double\"],\"default\":null},{\"name\":\"end_lon\",\"type\":[\"null\",\"double\"],\"default\":null},{\"name\":\"fare\",\"type\":[\"null\",\"double\"],\"default\":null},{\"name\":\"partitionpath\",\"type\":[\"null\",\"string\"],\"default\":null},{\"name\":\"rider\",\"type\":[\"null\",\"string\"],\"default\":null},{\"name\":\"ts\",\"type\":[\"null\",\"long\"],\"default\":null},{\"name\":\"uuid\",\"type\":[\"null\",\"string\"],\"default\":null}]}"
+  },
+  "operationType" : "UPSERT",
+  "fileIdAndRelativePaths" : {
+    "b5038cc2-69d1-4ff4-b332-5e8172a97bcc-0" : "americas/united_states/san_francisco/b5038cc2-69d1-4ff4-b332-5e8172a97bcc-0_1-27-28_20211020155200.parquet",
+    "3b095b31-b216-4152-b330-9203e3a23375-0" : "americas/brazil/sao_paulo/3b095b31-b216-4152-b330-9203e3a23375-0_0-21-27_20211020155200.parquet",
+    "519a0d66-a9c6-40a4-8b2f-f83d2cafe843-0" : "asia/india/chennai/519a0d66-a9c6-40a4-8b2f-f83d2cafe843-0_2-27-29_20211020155200.parquet"
+  },
+  "totalRecordsDeleted" : 0,
+  "totalLogRecordsCompacted" : 0,
+  "totalLogFilesCompacted" : 0,
+  "totalCompactedRecordsUpdated" : 0,
+  "totalLogFilesSize" : 0,
+  "totalScanTime" : 0,
+  "totalCreateTime" : 4130,
+  "totalUpsertTime" : 0,
+  "minAndMaxEventTime" : {
+    "Optional.empty" : {
+      "val" : null,
+      "present" : false
+    }
+  },
+  "writePartitionPaths" : [ "americas/brazil/sao_paulo", "americas/united_states/san_francisco", "asia/india/chennai" ]
+}
